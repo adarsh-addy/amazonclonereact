@@ -1,0 +1,8 @@
+.subheader{
+    background-color: #354259;
+    height: 45px;
+    display:flex;
+    align-items: center;
+    justify-content: column;
+    padding: 15px;
+}

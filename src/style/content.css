@@ -1,0 +1,71 @@
+.content {
+  height: 100%;
+  width: 100%;
+  /* background-color: #00C897; */
+  /* background-image: linear-gradient(
+      to right,
+      rgb(203, 57, 57) 40%,
+      rgb(35, 223, 101)
+    ); */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.card {
+  width: 70%;
+  height: 302px;
+  /* background-color: #1a132f; */
+  margin: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;/*wrapping into container starting with new line */
+  /* justify-content: center;
+      align-items: center; */
+}
+.card-image {
+  width: 30%;
+  height: 300px;
+  background-color: rgb(31, 31, 216);
+}
+.card-image > img {
+  height: 100%;
+  /* max-width: 100%; */
+  width:100%;
+}
+.para1 {
+  width: 70%;
+  height: 300px;
+  background-color: #F6FBF4;
+  padding: 20px;
+  position: relative;
+}
+.content-btn {
+  font-size: 18px;
+  margin: 10px 0px;
+  padding: 10px 10px;
+  border: none;
+  background-color: #FAC213;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+.para1 > hr {
+  /* color: #1a132f;
+      border: 1px solid black;
+      width: 100%; */
+
+  border: solid rgb(30, 31, 30);
+  border-bottom: none;
+  width: 75%;
+  margin: 3px 0px;
+}
+.para-name{
+  margin: 10px 0px;
+}
+.para-brand{
+  margin: 10px 0px;
+}
+.para-rating{
+  margin:10px 0px;
+}

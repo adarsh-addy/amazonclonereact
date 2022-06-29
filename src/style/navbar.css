@@ -1,0 +1,9 @@
+.navbar{
+    font-size: 20px;
+    display: flex;
+}
+.nav-1{
+text-decoration: none;
+padding: 0px 10px;
+color: aliceblue;
+}
